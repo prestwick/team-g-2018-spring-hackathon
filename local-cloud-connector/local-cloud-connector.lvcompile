@@ -1,5 +1,21 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <JobList>
+  <Job OutputType="Application">
+    <CurrentBuildId>
+      <DistributionTypeIdentifier>Application</DistributionTypeIdentifier>
+      <BuildId>C:\Users\markblack\Documents\GitHub\team-g-2018-spring-hackathon\local-cloud-connector\Builds\local-cloud-connector_PC\local-cloud-connector.exe</BuildId>
+    </CurrentBuildId>
+    <RootBuildId>
+      <DistributionTypeIdentifier>Application</DistributionTypeIdentifier>
+      <BuildId>C:\Users\markblack\Documents\GitHub\team-g-2018-spring-hackathon\local-cloud-connector\Builds\local-cloud-connector_PC\local-cloud-connector.exe</BuildId>
+    </RootBuildId>
+    <OutputPath>Builds\local-cloud-connector_PC\local-cloud-connector.exe</OutputPath>
+    <BuildName>local-cloud-connector</BuildName>
+    <State>Success</State>
+    <LastTotalTime>00:00:00</LastTotalTime>
+    <HasChild>False</HasChild>
+    <QualifiedName>:PC:Interactive:local\-cloud\-connector\.gcomp</QualifiedName>
+  </Job>
   <Job OutputType="WebApplication">
     <CurrentBuildId>
       <DistributionTypeIdentifier>WebApplication</DistributionTypeIdentifier>
@@ -12,7 +28,7 @@
     <OutputPath>Builds\WebApp_Web Server</OutputPath>
     <BuildName>WebApp</BuildName>
     <State>Success</State>
-    <LastTotalTime>00:00:02</LastTotalTime>
+    <LastTotalTime>00:00:01</LastTotalTime>
     <HasChild>False</HasChild>
     <QualifiedName>:Web\ Server:Interactive:WebApp\.gcomp</QualifiedName>
   </Job>
@@ -25,10 +41,10 @@
       <DistributionTypeIdentifier>Distribution:NiPackagePartial</DistributionTypeIdentifier>
       <BuildId>C:\Users\markblack\Documents\GitHub\team-g-2018-spring-hackathon\local-cloud-connector\Builds\WebApp</BuildId>
     </RootBuildId>
-    <OutputPath>Builds\WebApp\hack-g-hack-g-labview-webapp-bin-1_1.0.0.4_windows_x64.nipkg</OutputPath>
+    <OutputPath>Builds\WebApp\hack-g-hack-g-labview-webapp-bin-1_1.0.0.11_windows_x64.nipkg</OutputPath>
     <BuildName>WebApp</BuildName>
     <State>Success</State>
-    <LastTotalTime>00:00:05</LastTotalTime>
+    <LastTotalTime>00:00:03</LastTotalTime>
     <HasChild>True</HasChild>
     <QualifiedName>:NullTarget:WebApp\.lvdist</QualifiedName>
   </Job>
@@ -44,7 +60,7 @@
     <OutputPath>Builds\WebApp_Web Server</OutputPath>
     <BuildName>WebApp</BuildName>
     <State>Success</State>
-    <LastTotalTime>00:00:01</LastTotalTime>
+    <LastTotalTime>00:00:00</LastTotalTime>
     <HasChild>False</HasChild>
     <QualifiedName>:Web\ Server:Interactive:WebApp\.gcomp</QualifiedName>
   </Job>
