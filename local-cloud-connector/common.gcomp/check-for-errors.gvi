@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="F20CC30A95CF49BE8FD14A606D56CB60" Timestamp="1D3C2B3B8670F0F" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="2B85299716ABF2EFE90B25770189BEA7" Timestamp="1D3C2D0FA186ED6" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
 		<ParsableNamespace AssemblyFileVersion="5.3.0.59009" FeatureSetName="LabVIEW Controls" Name="http://www.ni.com/Controls.LabVIEW.Design" OldestCompatibleVersion="5.2.0.49153" Version="5.2.0.49153" />
 		<ParsableNamespace AssemblyFileVersion="5.3.0.59009" FeatureSetName="LabVIEW Virtual Instrument" Name="http://www.ni.com/LabVIEW.VI" OldestCompatibleVersion="5.2.0.9" Version="5.2.0.49152" />
@@ -58,26 +58,32 @@
 				<StringControl AcceptsReturn="[bool]True" Height="[float]95" Id="32" IsReadOnly="[bool]True" Label="[UIModel]33" Left="[float]3" MinHeight="[float]24" TabIndex="[int]2" Text="{ClusterBinding FieldName=source}" Top="[float]70" Width="[float]162" WordWrap="[bool]True" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
 				<p4:Label Height="[float]16" Id="33" LabelOwner="[UIModel]32" Left="[float]3" Text="[string]source" Top="[float]50" Width="[float]35" />
 			</Cluster>
-			<EnumSelector AllowUndefinedValueEntry="[bool]False" BaseName="[string]Enum" Height="[float]24" Id="108" InteractionMode="[SelectorInteractionModes]ArrowKeys, Keyboard, MouseClick, ScrollWheel, ButtonClicks" IsTypeAheadEnabled="[bool]True" Left="[float]188" MinHeight="[float]24" Name="[string]query-statemachine-states" TabIndex="[int]2" Top="[float]280" Value="{DataItemBinding Id=107}" ValueType="[Type]UInt16" VisualMode="[SelectorVisualMode]RingStyle" Width="[float]72" p4:ControlDefinitionChecksum="VdeVPRJENFituDW6W93ovQ==" xmlns:p4="http://www.ni.com/PanelCommon" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
+			<EnumSelector AllowUndefinedValueEntry="[bool]False" BaseName="[string]Enum" Height="[float]24" Id="108" IsTabStop="[bool]True" IsTypeAheadEnabled="[bool]True" Label="[UIModel]126" Left="[float]188" MinHeight="[float]24" TabIndex="[int]2" Top="[float]280" Value="{DataItemBinding Id=107}" ValueType="[Type]UInt16" VisualMode="[SelectorVisualMode]RingStyle" Width="[float]157" p4:ControlDefinitionChecksum="PAIZGHyvn2AE+XHxOHPmDg==" xmlns:p4="http://www.ni.com/PanelCommon" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
 				<p4:p.TypeDefinitionTargets>
-					<p4:TypeDefinitionTarget TargetName="local\-cloud\-connector:query\-statemachine\-states\.gtype:ControlDefinition" />
+					<p4:TypeDefinitionTarget TargetName="common:query\-statemachine\-states\.gtype:ControlDefinition" />
 				</p4:p.TypeDefinitionTargets>
 				<EnumSelectorInfo DisplayValue="[string]init" DisplayValueOverride="[string]" Id="26" IsEnabled="[bool]True" Value="[ushort]0" ValueType="[Type]UInt16" />
 				<EnumSelectorInfo DisplayValue="[string]query" DisplayValueOverride="[string]" IsEnabled="[bool]True" Value="[ushort]1" ValueType="[Type]UInt16" />
 				<EnumSelectorInfo DisplayValue="[string]open tags" DisplayValueOverride="[string]" IsEnabled="[bool]True" Value="[ushort]2" ValueType="[Type]UInt16" />
 				<EnumSelectorInfo DisplayValue="[string]handle errors" DisplayValueOverride="[string]" IsEnabled="[bool]True" Value="[ushort]3" ValueType="[Type]UInt16" />
 				<EnumSelectorInfo DisplayValue="[string]wait" DisplayValueOverride="[string]" IsEnabled="[bool]True" Value="[ushort]4" ValueType="[Type]UInt16" />
+				<EnumSelectorInfo DisplayValue="[string]read-write" DisplayValueOverride="[string]" IsEnabled="[bool]True" Value="[ushort]5" ValueType="[Type]UInt16" />
+				<EnumSelectorInfo DisplayValue="[string]update-tag-list" DisplayValueOverride="[string]" IsEnabled="[bool]True" Value="[ushort]6" ValueType="[Type]UInt16" />
 			</EnumSelector>
-			<EnumSelector AllowUndefinedValueEntry="[bool]False" BaseName="[string]Enum" Height="[float]24" Id="117" InteractionMode="[SelectorInteractionModes]ReadOnly" IsTypeAheadEnabled="[bool]True" Left="[float]188" MinHeight="[float]24" Name="[string]query-statemachine-states_2" TabIndex="[int]3" Top="[float]280" Value="{DataItemBinding Id=116}" ValueType="[Type]UInt16" VisualMode="[SelectorVisualMode]RingStyle" Width="[float]72" p4:ControlDefinitionChecksum="VdeVPRJENFituDW6W93ovQ==" xmlns:p4="http://www.ni.com/PanelCommon" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
+			<EnumSelector AllowUndefinedValueEntry="[bool]False" BaseName="[string]Enum" Height="[float]24" Id="117" InteractionMode="[SelectorInteractionModes]ReadOnly" IsTabStop="[bool]True" IsTypeAheadEnabled="[bool]True" Label="[UIModel]129" Left="[float]188" MinHeight="[float]24" TabIndex="[int]3" Top="[float]280" Value="{DataItemBinding Id=116}" ValueType="[Type]UInt16" VisualMode="[SelectorVisualMode]RingStyle" Width="[float]157" p4:ControlDefinitionChecksum="PAIZGHyvn2AE+XHxOHPmDg==" xmlns:p4="http://www.ni.com/PanelCommon" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
 				<p4:p.TypeDefinitionTargets>
-					<p4:TypeDefinitionTarget TargetName="local\-cloud\-connector:query\-statemachine\-states\.gtype:ControlDefinition" />
+					<p4:TypeDefinitionTarget TargetName="common:query\-statemachine\-states\.gtype:ControlDefinition" />
 				</p4:p.TypeDefinitionTargets>
 				<EnumSelectorInfo DisplayValue="[string]init" DisplayValueOverride="[string]" Id="26" IsEnabled="[bool]True" Value="[ushort]0" ValueType="[Type]UInt16" />
 				<EnumSelectorInfo DisplayValue="[string]query" DisplayValueOverride="[string]" IsEnabled="[bool]True" Value="[ushort]1" ValueType="[Type]UInt16" />
 				<EnumSelectorInfo DisplayValue="[string]open tags" DisplayValueOverride="[string]" IsEnabled="[bool]True" Value="[ushort]2" ValueType="[Type]UInt16" />
 				<EnumSelectorInfo DisplayValue="[string]handle errors" DisplayValueOverride="[string]" IsEnabled="[bool]True" Value="[ushort]3" ValueType="[Type]UInt16" />
 				<EnumSelectorInfo DisplayValue="[string]wait" DisplayValueOverride="[string]" IsEnabled="[bool]True" Value="[ushort]4" ValueType="[Type]UInt16" />
+				<EnumSelectorInfo DisplayValue="[string]read-write" DisplayValueOverride="[string]" IsEnabled="[bool]True" Value="[ushort]5" ValueType="[Type]UInt16" />
+				<EnumSelectorInfo DisplayValue="[string]update-tag-list" DisplayValueOverride="[string]" IsEnabled="[bool]True" Value="[ushort]6" ValueType="[Type]UInt16" />
 			</EnumSelector>
+			<Label Height="[float]16" Id="126" LabelOwner="[UIModel]108" Left="[float]188" Text="[string]query-statemachine-states" Top="[float]260" Width="[float]30" xmlns="http://www.ni.com/PanelCommon" />
+			<Label Height="[float]16" Id="129" LabelOwner="[UIModel]117" Left="[float]188" Text="[string]query-statemachine-states_2" Top="[float]260" Width="[float]30" xmlns="http://www.ni.com/PanelCommon" />
 		</FrontPanelUnplacedItems>
 		<BlockDiagram Id="12">
 			<DataAccessor Bounds="200 295 40 15" DataItem="16" Id="15" Label="24" xmlns="http://www.ni.com/MocCommon">
@@ -92,39 +98,42 @@
 			<NodeLabel AttachedTo="25" Bounds="520 295 52 14" Id="34" xmlns="http://www.ni.com/PlatformFramework">
 				<p.Text>Error Out</p.Text>
 			</NodeLabel>
-			<CaseStructure Bounds="260 275 190 110" DataType="Error" Default="36" Id="35" Selected="36" UserSelectorBounds="42 0 106 17">
-				<CaseStructure.Case Bounds="5 5 180 100" Id="36" Pattern="Error">
-					<Wire Id="122" Joints="N(38:36)|(4,20) N(46:36)|(176,20)" xmlns="http://www.ni.com/PlatformFramework" />
-					<Literal Bounds="25 55 130 15" DataType="@9412e90aa6a24d5182308173e67d166e" Id="123" p6:ControlDefinitionChecksum="VdeVPRJENFituDW6W93ovQ==" xmlns:p6="http://www.ni.com/PanelCommon" xmlns="http://www.ni.com/MocCommon">
+			<CaseStructure Bounds="260 250 190 135" DataType="Error" Default="36" Id="35" Selected="36" UserSelectorBounds="42 0 106 17">
+				<CaseStructure.Case Bounds="5 5 180 125" Id="36" Pattern="Error">
+					<Wire Id="122" Joints="N(38:36)|(4,45) N(46:36)|(176,45)" xmlns="http://www.ni.com/PlatformFramework" />
+					<Wire Id="124" Joints="N(123:Out)|(155,85) N(43:36)|(176,85)" xmlns="http://www.ni.com/PlatformFramework" />
+					<Literal Bounds="80 80 75 15" DataType="@fb17e70e3f1b4ae1b022393e4876433c" Id="123" Label="132" p6:ControlDefinitionChecksum="PAIZGHyvn2AE+XHxOHPmDg==" xmlns:p6="http://www.ni.com/PanelCommon" xmlns="http://www.ni.com/MocCommon">
 						<p.Data>3</p.Data>
 						<p6:p.TypeDefinitionTargets>
-							<p6:TypeDefinitionTarget TargetName="local\-cloud\-connector:query\-statemachine\-states\.gtype" />
-							<p6:TypeDefinitionTarget TargetName="local\-cloud\-connector:query\-statemachine\-states\.gtype:ControlDefinition" />
+							<p6:TypeDefinitionTarget TargetName="common:query\-statemachine\-states\.gtype" />
+							<p6:TypeDefinitionTarget TargetName="common:query\-statemachine\-states\.gtype:ControlDefinition" />
 						</p6:p.TypeDefinitionTargets>
 						<EnumBehavior />
 					</Literal>
-					<Wire Id="124" Joints="N(123:Out)|(155,60) N(43:36)|(176,60)" xmlns="http://www.ni.com/PlatformFramework" />
+					<NodeLabel AttachedTo="123" Bounds="80 62 30 15" Id="132" xmlns="http://www.ni.com/PlatformFramework">
+						<p.Text>query-statemachine-states</p.Text>
+					</NodeLabel>
 				</CaseStructure.Case>
-				<CaseStructure.Case Bounds="5 5 180 100" Id="37" Pattern="No Error">
-					<Wire Id="45" Joints="N(38:37)|(4,20) N(46:37)|(176,20)" xmlns="http://www.ni.com/PlatformFramework" />
-					<Wire Id="115" Joints="N(114:37)|(4,60) N(43:37)|(176,60)" xmlns="http://www.ni.com/PlatformFramework" />
+				<CaseStructure.Case Bounds="5 5 180 125" Id="37" Pattern="No Error">
+					<Wire Id="45" Joints="N(38:37)|(4,45) N(46:37)|(176,45)" xmlns="http://www.ni.com/PlatformFramework" />
+					<Wire Id="115" Joints="N(114:37)|(4,85) N(43:37)|(176,85)" xmlns="http://www.ni.com/PlatformFramework" />
 				</CaseStructure.Case>
-				<CaseStructure.Selector Bounds="-4 20 13 10" Docking="Left" Id="38" Terminals="35=39, 36=122, 37=45" />
-				<CaseStructure.Tunnel Bounds="181 60 13 10" Docking="Right" Id="43" Terminals="35=121, 36=124, 37=115" />
-				<CaseStructure.Tunnel Bounds="181 20 13 10" Docking="Right" Id="46" Terminals="35=48, 36=122, 37=45" />
-				<CaseStructure.Tunnel Bounds="-4 60 13 10" Docking="Left" Id="114" Terminals="35=113, 36, 37=115" />
+				<CaseStructure.Selector Bounds="-4 45 13 10" Docking="Left" Id="38" Terminals="35=39, 36=122, 37=45" />
+				<CaseStructure.Tunnel Bounds="181 85 13 10" Docking="Right" Id="43" Terminals="35=121, 36=124, 37=115" />
+				<CaseStructure.Tunnel Bounds="181 45 13 10" Docking="Right" Id="46" Terminals="35=48, 36=122, 37=45" />
+				<CaseStructure.Tunnel Bounds="-4 85 13 10" Docking="Left" Id="114" Terminals="35=113, 36, 37=115" />
 			</CaseStructure>
 			<Wire Id="39" Joints="N(15:Value)|(240,300) N(38:35)|(256,300)" xmlns="http://www.ni.com/PlatformFramework" />
 			<Wire Id="48" Joints="N(46:35)|(454,300) N(25:Value)|(478,300)" xmlns="http://www.ni.com/PlatformFramework" />
 			<DataAccessor Bounds="95 335 40 15" DataItem="107" Id="110" Label="111" xmlns="http://www.ni.com/MocCommon">
-				<Terminal DataType="@9412e90aa6a24d5182308173e67d166e" Direction="Output" Hotspot="40 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
+				<Terminal DataType="@fb17e70e3f1b4ae1b022393e4876433c" Direction="Output" Hotspot="40 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
 			</DataAccessor>
 			<NodeLabel AttachedTo="110" Bounds="95 318 149 14" Id="111" xmlns="http://www.ni.com/PlatformFramework">
 				<p.Text>query-statemachine-states</p.Text>
 			</NodeLabel>
 			<Wire Id="113" Joints="N(110:Value)|(135,340) N(114:35)|(256,340)" xmlns="http://www.ni.com/PlatformFramework" />
 			<DataAccessor Bounds="475 335 40 15" DataItem="116" Id="119" Label="120" xmlns="http://www.ni.com/MocCommon">
-				<Terminal DataType="@9412e90aa6a24d5182308173e67d166e" Direction="Input" Hotspot="3 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
+				<Terminal DataType="@fb17e70e3f1b4ae1b022393e4876433c" Direction="Input" Hotspot="3 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
 			</DataAccessor>
 			<NodeLabel AttachedTo="119" Bounds="520 335 163 14" Id="120" xmlns="http://www.ni.com/PlatformFramework">
 				<p.Text>query-statemachine-states_2</p.Text>
@@ -158,31 +167,31 @@
 				<TypeDefinitionTarget TargetName="NI:G\ Core:Error:Error\.gtype" />
 			</p.TypeDefinitionTargets>
 		</DataItem>
-		<DataItem CallDirection="Input" CallIndex="1" DataType="@9412e90aa6a24d5182308173e67d166e" Id="107" Name="query-statemachine-states" xmlns="http://www.ni.com/MocCommon">
+		<DataItem CallDirection="Input" CallIndex="1" DataType="@fb17e70e3f1b4ae1b022393e4876433c" Id="107" Name="query-statemachine-states" xmlns="http://www.ni.com/MocCommon">
 			<p.DefaultValue>3</p.DefaultValue>
 			<p.TypeDefinitionTargets xmlns="http://www.ni.com/PanelCommon">
-				<TypeDefinitionTarget TargetName="local\-cloud\-connector:query\-statemachine\-states\.gtype" />
+				<TypeDefinitionTarget TargetName="common:query\-statemachine\-states\.gtype" />
 			</p.TypeDefinitionTargets>
 		</DataItem>
-		<DataItem CallDirection="Output" CallIndex="1" DataType="@9412e90aa6a24d5182308173e67d166e" Id="116" Name="query-statemachine-states_2" xmlns="http://www.ni.com/MocCommon">
+		<DataItem CallDirection="Output" CallIndex="1" DataType="@fb17e70e3f1b4ae1b022393e4876433c" Id="116" Name="query-statemachine-states_2" xmlns="http://www.ni.com/MocCommon">
 			<p.DefaultValue>0</p.DefaultValue>
 			<p.TypeDefinitionTargets xmlns="http://www.ni.com/PanelCommon">
-				<TypeDefinitionTarget TargetName="local\-cloud\-connector:query\-statemachine\-states\.gtype" />
+				<TypeDefinitionTarget TargetName="common:query\-statemachine\-states\.gtype" />
 			</p.TypeDefinitionTargets>
 		</DataItem>
 	</VirtualInstrument>
 	<DataTypeReferenceTable xmlns="http://www.ni.com/PlatformFramework">
-		<p.TypeReference TypeId="9412e90aa6a24d5182308173e67d166e">
-			<Attributed AttributedType="@cab83ad6a2b345b1997bd4cea8a10d24">
+		<p.TypeReference TypeId="fb17e70e3f1b4ae1b022393e4876433c">
+			<Attributed AttributedType="@780f691bf07d4e4ba5e99b9e17227e92">
 				<AttributeValues>
-					<AttributeValue Name="NationalInstruments.NamespaceName" Value="[QualifiedName]local\-cloud\-connector" />
+					<AttributeValue Name="NationalInstruments.NamespaceName" Value="[QualifiedName]common" />
 				</AttributeValues>
 			</Attributed>
 		</p.TypeReference>
-		<p.TypeReference TypeId="cab83ad6a2b345b1997bd4cea8a10d24">
-			<Typedef TypedefName="query-statemachine-states.gtype" UnderlyingType="@8a6bb655425e4e5a81e0d20dac7b56ef" />
+		<p.TypeReference TypeId="780f691bf07d4e4ba5e99b9e17227e92">
+			<Typedef TypedefName="query-statemachine-states.gtype" UnderlyingType="@df6ba5dba4e24466a07334fefafa81b1" />
 		</p.TypeReference>
-		<p.TypeReference TypeId="8a6bb655425e4e5a81e0d20dac7b56ef">
+		<p.TypeReference TypeId="df6ba5dba4e24466a07334fefafa81b1">
 			<Enumeration>
 				<Members>
 					<EnumerationMember Value="0" Name="init" />
@@ -190,6 +199,8 @@
 					<EnumerationMember Value="2" Name="open tags" />
 					<EnumerationMember Value="3" Name="handle errors" />
 					<EnumerationMember Value="4" Name="wait" />
+					<EnumerationMember Value="5" Name="read-write" />
+					<EnumerationMember Value="6" Name="update-tag-list" />
 				</Members>
 				<DataType>UInt16</DataType>
 			</Enumeration>

@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<JobList>
+  <Job OutputType="WebApplication">
+    <CurrentBuildId>
+      <DistributionTypeIdentifier>WebApplication</DistributionTypeIdentifier>
+      <BuildId>C:\Users\markblack\Documents\GitHub\team-g-2018-spring-hackathon\local-cloud-connector\Builds\WebApp_Web Server</BuildId>
+    </CurrentBuildId>
+    <RootBuildId>
+      <DistributionTypeIdentifier>WebApplication</DistributionTypeIdentifier>
+      <BuildId>C:\Users\markblack\Documents\GitHub\team-g-2018-spring-hackathon\local-cloud-connector\Builds\WebApp_Web Server</BuildId>
+    </RootBuildId>
+    <OutputPath>Builds\WebApp_Web Server</OutputPath>
+    <BuildName>WebApp</BuildName>
+    <State>Success</State>
+    <LastTotalTime>00:00:02</LastTotalTime>
+    <HasChild>False</HasChild>
+    <QualifiedName>:Web\ Server:Interactive:WebApp\.gcomp</QualifiedName>
+  </Job>
+  <Job OutputType="Distribution:NiPackagePartial">
+    <CurrentBuildId>
+      <DistributionTypeIdentifier>Distribution:NiPackagePartial</DistributionTypeIdentifier>
+      <BuildId>C:\Users\markblack\Documents\GitHub\team-g-2018-spring-hackathon\local-cloud-connector\Builds\WebApp</BuildId>
+    </CurrentBuildId>
+    <RootBuildId>
+      <DistributionTypeIdentifier>Distribution:NiPackagePartial</DistributionTypeIdentifier>
+      <BuildId>C:\Users\markblack\Documents\GitHub\team-g-2018-spring-hackathon\local-cloud-connector\Builds\WebApp</BuildId>
+    </RootBuildId>
+    <OutputPath>Builds\WebApp\hack-g-hack-g-labview-webapp-bin-1_1.0.0.4_windows_x64.nipkg</OutputPath>
+    <BuildName>WebApp</BuildName>
+    <State>Success</State>
+    <LastTotalTime>00:00:05</LastTotalTime>
+    <HasChild>True</HasChild>
+    <QualifiedName>:NullTarget:WebApp\.lvdist</QualifiedName>
+  </Job>
+  <Job OutputType="WebApplication">
+    <CurrentBuildId>
+      <DistributionTypeIdentifier>WebApplication</DistributionTypeIdentifier>
+      <BuildId>C:\Users\markblack\Documents\GitHub\team-g-2018-spring-hackathon\local-cloud-connector\Builds\WebApp_Web Server</BuildId>
+    </CurrentBuildId>
+    <RootBuildId>
+      <DistributionTypeIdentifier>Distribution:NiPackagePartial</DistributionTypeIdentifier>
+      <BuildId>C:\Users\markblack\Documents\GitHub\team-g-2018-spring-hackathon\local-cloud-connector\Builds\WebApp</BuildId>
+    </RootBuildId>
+    <OutputPath>Builds\WebApp_Web Server</OutputPath>
+    <BuildName>WebApp</BuildName>
+    <State>Success</State>
+    <LastTotalTime>00:00:01</LastTotalTime>
+    <HasChild>False</HasChild>
+    <QualifiedName>:Web\ Server:Interactive:WebApp\.gcomp</QualifiedName>
+  </Job>
+</JobList>
