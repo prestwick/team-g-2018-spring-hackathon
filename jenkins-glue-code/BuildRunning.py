@@ -17,7 +17,7 @@ jsonData = {
 			"currentStatus": os.environ['JOB_BASE_NAME']
 		},
 		"programName":"InsightCM Build", 
-		"status": { "statusType":"FAILED", "statusName":"Failed" }, 
+		"status": { "statusType":"RUNNING", "statusName":"Running" }, 
 		"systemId":"icmr6build", 
 		"updatedAt": timestamp
 	},

@@ -14,8 +14,11 @@ jsonData = {
 		"id": id,
 		"keywords": [ "2018springhackathon" ], 
 		"programName":"InsightCM Build", 
+		"properties": {
+			"currentStatus": os.environ['JOB_BASE_NAME']
+		},		
 		"status": { "statusType":"PASSED", "statusName":"Passed" }, 
-		"systemId":"2349F6E4-B0D9-4527-8638-FA8BFA0F5B41", 
+		"systemId":"icmr6build", 
 		"updatedAt": timestamp
 	},
 	"replace":True
